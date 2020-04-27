@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "b9820306-3a33-48db-af1f-6b26721bc198",
+		"name": "followSpotifyJs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.spotify.com/v1/me/following?type=artist&ids=2cqDQPVfPRH9Mr6G4LT7WA",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me/following?type=artist&ids=2cqDQPVfPRH9Mr6G4LT7WA",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me",
+						"following"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "ids",
+							"value": "2cqDQPVfPRH9Mr6G4LT7WA"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/playlists/3sZNUAFqtxpnkoc6FcOemu/followers",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCkii_EdWO7wDBE5_mAazl5YTBV3OojIS8-KDm8FBfaZqhCq5ucIcN5Vu0Ihs_jnE7FDIqfAPWoNR8NtFR76nyZkvGVxbmD9hsR7j9sLrruhw46BV3cBTzlON6q-ZTqLFvHgkHMvJSkKocQ6Nx6Rx0lZ3K8rmjc43KH-YQcLWkajFDetGP1v8yLh1QuDMiz-O0pJxATX2iezUL9wLLfobRjs3yJ7JPqdrwxxfJXUFED2zMAz5XK4j43AUlaYQrq4YeQb32-TBFf83q_BtJFymF5tFn8xg"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/playlists/5yCHGSqExolj80mvkthJCF/followers",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"playlists",
+						"5yCHGSqExolj80mvkthJCF",
+						"followers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/me/following/contains?type=artist&ids=45PG2L6Fh2XvYL4ONzpdoW",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCkii_EdWO7wDBE5_mAazl5YTBV3OojIS8-KDm8FBfaZqhCq5ucIcN5Vu0Ihs_jnE7FDIqfAPWoNR8NtFR76nyZkvGVxbmD9hsR7j9sLrruhw46BV3cBTzlON6q-ZTqLFvHgkHMvJSkKocQ6Nx6Rx0lZ3K8rmjc43KH-YQcLWkajFDetGP1v8yLh1QuDMiz-O0pJxATX2iezUL9wLLfobRjs3yJ7JPqdrwxxfJXUFED2zMAz5XK4j43AUlaYQrq4YeQb32-TBFf83q_BtJFymF5tFn8xg"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me/following/contains?type=artist&ids=45PG2L6Fh2XvYL4ONzpdoW",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me",
+						"following",
+						"contains"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "ids",
+							"value": "45PG2L6Fh2XvYL4ONzpdoW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/me/following?type=artist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCkii_EdWO7wDBE5_mAazl5YTBV3OojIS8-KDm8FBfaZqhCq5ucIcN5Vu0Ihs_jnE7FDIqfAPWoNR8NtFR76nyZkvGVxbmD9hsR7j9sLrruhw46BV3cBTzlON6q-ZTqLFvHgkHMvJSkKocQ6Nx6Rx0lZ3K8rmjc43KH-YQcLWkajFDetGP1v8yLh1QuDMiz-O0pJxATX2iezUL9wLLfobRjs3yJ7JPqdrwxxfJXUFED2zMAz5XK4j43AUlaYQrq4YeQb32-TBFf83q_BtJFymF5tFn8xg"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me/following?type=artist",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me",
+						"following"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "artist"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evNZX1xIu/followers/contains?ids=sfs9chw4oj4zarqaxzgagcsju",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCkii_EdWO7wDBE5_mAazl5YTBV3OojIS8-KDm8FBfaZqhCq5ucIcN5Vu0Ihs_jnE7FDIqfAPWoNR8NtFR76nyZkvGVxbmD9hsR7j9sLrruhw46BV3cBTzlON6q-ZTqLFvHgkHMvJSkKocQ6Nx6Rx0lZ3K8rmjc43KH-YQcLWkajFDetGP1v8yLh1QuDMiz-O0pJxATX2iezUL9wLLfobRjs3yJ7JPqdrwxxfJXUFED2zMAz5XK4j43AUlaYQrq4YeQb32-TBFf83q_BtJFymF5tFn8xg"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/playlists/37i9dQZF1DZ06evNZX1xIu/followers/contains?ids=sfs9chw4oj4zarqaxzgagcsju",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"playlists",
+						"37i9dQZF1DZ06evNZX1xIu",
+						"followers",
+						"contains"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "sfs9chw4oj4zarqaxzgagcsju"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/playlists/6kEy2FlnZGmxfab6xu5I82/followers/contains?ids=sfs9chw4oj4zarqaxzgagcsju",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCkii_EdWO7wDBE5_mAazl5YTBV3OojIS8-KDm8FBfaZqhCq5ucIcN5Vu0Ihs_jnE7FDIqfAPWoNR8NtFR76nyZkvGVxbmD9hsR7j9sLrruhw46BV3cBTzlON6q-ZTqLFvHgkHMvJSkKocQ6Nx6Rx0lZ3K8rmjc43KH-YQcLWkajFDetGP1v8yLh1QuDMiz-O0pJxATX2iezUL9wLLfobRjs3yJ7JPqdrwxxfJXUFED2zMAz5XK4j43AUlaYQrq4YeQb32-TBFf83q_BtJFymF5tFn8xg"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/playlists/6kEy2FlnZGmxfab6xu5I82/followers/contains?ids=sfs9chw4oj4zarqaxzgagcsju",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"playlists",
+						"6kEy2FlnZGmxfab6xu5I82",
+						"followers",
+						"contains"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "sfs9chw4oj4zarqaxzgagcsju"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/me/following?type=artist&ids=45PG2L6Fh2XvYL4ONzpdoW",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCm6JgYIqEjYpBoWQ6nqv17SIXUgMIlntc84LlU7n4zcZvyzN8X0oKxGo-MCgDdgicQ_-DZrSG2RbkbcE2DH1-rgBKrPZwtugCp-xg-d3-_GwOFoiVAHHDyfFbF2DZ39EjOnXEl_oQr1SDrDrKmci1V_TQIxYW-PgIC20IDvJdwdhMcUVxa9ZpEMQtpqINoEQ_711LjemOY1zWqDeR4s44JrsXVGTdn6U5WOr0SUZnge1T3s2uBhYJIyR0WlhzH29t9cuVn9qawLrm0YjI9NP11BvG8RA"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/me/following?type=artist&ids=45PG2L6Fh2XvYL4ONzpdoW",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"me",
+						"following"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "artist"
+						},
+						{
+							"key": "ids",
+							"value": "45PG2L6Fh2XvYL4ONzpdoW"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.spotify.com/v1/playlists/4rX602lzHaPfK6wuOpncVa/followers",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer BQCf6mRigZrEDDw05PchDb4zD64GifoVDOwzOSwfYgtmqFVgQxkqa0DSBerWFv_x7GZPfr2RFKyRRiCYvaAliYJlnp8LnetXOQCZtnYZgIGOCEZjLiyTbszpXbp3LLZfTqGq-HuAEcrkaEj8786qNY5EBenDykymJkqLVkSAJuIpQFOOs22IVgA4z0-muiFNgs2ovv4MViev_11ogFruVTPoILjpzRBAJHr5AXx2VGeLbxIs1MTtYtoTJZ-5c4gPWALZqRiFux1iyu8O0l6ZHACC_uv9Jw"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"public\":false}"
+				},
+				"url": {
+					"raw": "https://api.spotify.com/v1/playlists/4rX602lzHaPfK6wuOpncVa/followers",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"playlists",
+						"4rX602lzHaPfK6wuOpncVa",
+						"followers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
